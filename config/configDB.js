@@ -4,7 +4,7 @@ var connMysql = function(){
     return connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'massango',
+    password: '1234',
     database: 'portal_noticias'});
 }
 module.exports = function (){
